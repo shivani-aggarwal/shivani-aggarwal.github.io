@@ -3,7 +3,7 @@ import arrow from '../assets/rightArrow.png';
 
 const Project = ({src, title, text, link}) => {
 	return (
-		<a href={link} target='_blank' rel="noopener noreferrer" class="card flex-row card-accent-dark" style={{width: '60%', marginBottom: '20px', marginTop: '20px', color:'inherit', textDecoration:'none'}}>
+		<a href={link} target='_blank' rel="noopener noreferrer" class="card flex-row card-accent-dark" style={{width: 'auto', marginBottom: '20px', marginTop: '20px', color:'inherit', textDecoration:'none', minWidth: '40%', maxWidth: '60%'}}>
 			<div class="card-header">
            		<img src={src} alt="" height='180px' width='180px' style={{borderRadius: '9px', border: '1px', borderColor: '#d3d3d3', borderStyle:'solid'}}/>
         	</div>
