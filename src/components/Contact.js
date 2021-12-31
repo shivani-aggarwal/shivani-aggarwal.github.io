@@ -14,16 +14,16 @@ const Contact = React.forwardRef((props, ref)=> {
       		</p>
       	</div>
         <div style={{width: '100vw', display:'flex', flexDirection: 'column'}}>
-          <div style={{display: 'inline', textAlign: 'center', marginTop: '20px', marginBottom: '60px'}}>
-              <a href='mailto:s26aggar@uwaterloo.ca' style={{marginRight: '50px'}}>
-                <img src={email} alt='email' height='100px' width='100px' className='grow'/>
+          <div style={{display: 'inline', textAlign: 'center', marginTop: '10px', marginBottom: '50px'}}>
+              <a href='mailto:shivanisa33@gmail.com' style={{marginRight: '45px'}}>
+                <img src={email} alt='email' height='90px' width='90px' className='grow'/>
               </a>
-              <a href='https://www.github.com/shivani-aggarwal' target='_blank' rel="noopener noreferrer" style={{marginLeft: '50px', marginRight: '50px'}}>
-                <img src={github} alt='github' height='100px' width='100px' className='grow'/>
-              </a>
-              <a href='https://www.linkedin.com/in/shivani-aggarw' target='_blank' rel="noopener noreferrer" style={{marginLeft: '50px'}}>
-                <img src={linkedin} alt='linkedin' height='100px' width='100px' className='grow'/>
+              <a href='https://www.linkedin.com/in/shivani-aggarw' target='_blank' rel="noopener noreferrer" style={{marginLeft: '45px', marginRight: '45px'}}>
+                <img src={linkedin} alt='linkedin' height='90px' width='90px' className='grow'/>
               </a> 
+              <a href='https://www.github.com/shivani-aggarwal' target='_blank' rel="noopener noreferrer" style={{marginLeft: '45px'}}>
+                <img src={github} alt='github' height='90px' width='90px' className='grow'/>
+              </a>
           </div>
         </div>
     </div>

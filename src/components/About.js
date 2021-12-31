@@ -1,6 +1,7 @@
 import React from 'react';
 import Heading from './Heading';
-import ProgressBar from './ProgressBar';
+import dashboard from '../assets/dashboard.png';
+import resume from '../assets/ShivaniAggarwal_Resume.pdf';
 
 const About = React.forwardRef((props, ref)=> {
 	return (
@@ -10,37 +11,21 @@ const About = React.forwardRef((props, ref)=> {
 				<div style={{display:'flex'}}>
 					<div className='leftColumn'>
 						<p>
-							I am a Systems Design Engineering student at the University
-							of Waterloo and am passionate about solving problems with
-							efficient code. I enjoy learning about new technologies and
-							the many different areas of web development and design.
+							I am a 4th year Systems Design Engineering student at the University
+							of Waterloo and am passionate about creating intuitive user interfaces and experiences. I enjoy learning about new technologies and
+							the different areas of web development and design.
 							<br></br>
 							<br></br>
-							While not coding in front of the computer, my interests lie
-							in cooking, taking photos, and skiing.
+							Outside of work, my interests lie
+							in learning languages, photography, and pilates.
 						</p>
+						<a href={resume} alt="Shivani Aggarwal Resume" target='_blank' rel="noopener noreferrer" style={{fontSize:'18pt',marginBottom:'16px'}}>
+							Check out my resume here!
+						</a>
 					</div> 
-					<div className='middleColumn'>
-						<ul>
-							<p>HTML/CSS</p>
-							<p>Bootstrap</p>
-							<p>React</p>
-							<p>Javascript</p>
-							<p>Node.js</p>
-							<p>Express.js</p>
-							<p>Mongodb</p>
-							<p>AWS</p>
-						</ul>
-					</div>
 					<div className='rightColumn'>
-						<ProgressBar margin='9px' width='90%'/>
-						<ProgressBar margin='36px' width='70%'/>
-						<ProgressBar margin='36px' width='85%'/>
-						<ProgressBar margin='36px' width='90%'/>
-						<ProgressBar margin='36px' width='85%'/>
-						<ProgressBar margin='36px' width='85%'/>
-						<ProgressBar margin='36px' width='70%'/>
-						<ProgressBar margin='36px' width='75%'/>
+						<img src={dashboard} alt='web design' height='90%' width='100%' />
+						<p style={{fontSize:'13pt',marginTop:'5px', fontStyle:'italic'}}>Dashboard design for a health information system</p>
 					</div>
 				</div>
 			</div>

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './NavBar.css'
 import logo from '../assets/logo.png';
 
+const offset = 80;
+
 class NavBar extends Component {
 	constructor(props) {
 		super(props);
@@ -31,11 +33,11 @@ class NavBar extends Component {
 		window.removeEventListener('scroll', this.handleScrollEvent);
 		this.setState({active: 'about'});
 		window.scrollTo({
-		    top: this.about.current.offsetTop - 60, 
+		    top: this.about.current.offsetTop - offset, 
 		    behavior: "smooth"
 		})  
 		window.onscroll = (e) => {
-			if (window.scrollY+60 >= this.about.current.offsetTop) {
+			if (window.scrollY+offset >= this.about.current.offsetTop) {
 				this.addScrollEvent();
 			}
 		}  
@@ -46,11 +48,11 @@ class NavBar extends Component {
 		window.removeEventListener('scroll', this.handleScrollEvent);
 		this.setState({active: 'portfolio'});
 		window.scrollTo({
-		    top: this.portfolio.current.offsetTop - 60, 
+		    top: this.portfolio.current.offsetTop - offset, 
 		    behavior: "smooth"
 		})
 		window.onscroll = (e) => {
-			if (window.scrollY+60 >= this.portfolio.current.offsetTop) {
+			if (window.scrollY+offset >= this.portfolio.current.offsetTop) {
 				this.addScrollEvent();
 			}
 		}
@@ -61,12 +63,12 @@ class NavBar extends Component {
 		window.removeEventListener('scroll', this.handleScrollEvent);
 		this.setState({active: 'contact'});
 		window.scrollTo({
-	   		top: this.contact.current.offsetTop - 60, 
+	   		top: this.contact.current.offsetTop - offset, 
 	    	behavior: "smooth"
 		})
 		window.onscroll = (e) => {
 			if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight || 
-				window.scrollY+60 >= this.contact.current.offsetTop) {
+				window.scrollY+offset >= this.contact.current.offsetTop) {
 				this.addScrollEvent();
 			}
 		} 
@@ -78,23 +80,23 @@ class NavBar extends Component {
   	}
 
   	handleScrollEvent = (e) => {
-      if (window.scrollY+60 < this.about.current.offsetTop) {
+      if (window.scrollY+offset < this.about.current.offsetTop) {
         if (this.state.active !== 'home') { 
           this.setState({active: 'home'});
         }
       }
-      else if (window.scrollY+60 < this.portfolio.current.offsetTop) {
+      else if (window.scrollY+offset < this.portfolio.current.offsetTop) {
         if (this.state.active !== 'about') {
           this.setState({active: 'about'});
         }
       }
-      else if (window.scrollY+60 < this.contact.current.offsetTop) {
+      else if (window.scrollY+offset < this.contact.current.offsetTop) {
         if (this.state.active !== 'portfolio') {
           this.setState({active: 'portfolio'});
         }
       }
       if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight ||
-                window.scrollY+60 >= this.contact.current.offsetTop) {
+                window.scrollY+offset >= this.contact.current.offsetTop) {
         if (this.state.active !== 'contact') {
           this.setState({active: 'contact'});
         }

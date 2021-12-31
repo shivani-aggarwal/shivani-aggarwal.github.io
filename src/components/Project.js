@@ -8,7 +8,7 @@ const Project = ({src, title, text, link}) => {
            		<img src={src} alt="" height='180px' width='180px' style={{borderRadius: '9px', border: '1px', borderColor: '#d3d3d3', borderStyle:'solid'}}/>
         	</div>
         	<div class="card-block" style={{width: '60%'}}>
-            	<h3 style={{marginLeft: '30px', marginTop:'15px'}} className='cardTitle'>{title}</h3>
+            	<h3 style={{marginLeft: '30px', marginTop:'15px', fontSize:'30px'}}>{title}</h3>
             	<p style={{marginLeft: '30px'}}>{text}</p>
         	</div>
             <div class='card-block h-100' style={{margin:'auto'}}>
