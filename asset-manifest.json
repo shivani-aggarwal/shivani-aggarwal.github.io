@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.888db172.css",
-    "main.js": "/static/js/main.007934f7.js",
+    "main.js": "/static/js/main.7b510230.js",
     "static/media/me.jpg": "/static/media/me.3e89290946695db4b14e.jpg",
     "static/media/healthra-sketch2.png": "/static/media/healthra-sketch2.8a5be1df927fdd29a18c.png",
     "static/media/healthra-sketch1.png": "/static/media/healthra-sketch1.11211379eae386ae85c8.png",
@@ -24,16 +24,16 @@
     "static/media/healthra-ia.png": "/static/media/healthra-ia.b91fb5e4d2364d1937ee.png",
     "static/media/cleanapp.png": "/static/media/cleanapp.fe6e02ad863dc44e6256.png",
     "static/media/airlinesite.png": "/static/media/airlinesite.8e7191470fb090a1e633.png",
+    "static/media/resume2026.pdf": "/static/media/resume2026.f940ec631a3847c92713.pdf",
     "static/media/clipart.png": "/static/media/clipart.d6dd41750762ab9016b0.png",
-    "static/media/ShivaniAggarwal_Resume.pdf": "/static/media/ShivaniAggarwal_Resume.cccea9df12c5db82a81d.pdf",
     "static/media/downArrow.png": "/static/media/downArrow.b0458b7aa0e70f35d5a5.png",
     "static/media/logo.png": "/static/media/logo.0268841659d16b2e9b7a.png",
     "index.html": "/index.html",
     "main.888db172.css.map": "/static/css/main.888db172.css.map",
-    "main.007934f7.js.map": "/static/js/main.007934f7.js.map"
+    "main.7b510230.js.map": "/static/js/main.7b510230.js.map"
   },
   "entrypoints": [
     "static/css/main.888db172.css",
-    "static/js/main.007934f7.js"
+    "static/js/main.7b510230.js"
   ]
 }
