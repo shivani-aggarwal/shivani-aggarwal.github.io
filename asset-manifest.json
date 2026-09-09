@@ -1,12 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.888db172.css",
-    "main.js": "/static/js/main.6bd8ea1b.js",
+    "main.css": "/static/css/main.2670b498.css",
+    "main.js": "/static/js/main.3593e492.js",
+    "static/media/icccm.png": "/static/media/icccm.de432d60735ab37bd3f8.png",
     "static/media/me.jpg": "/static/media/me.3e89290946695db4b14e.jpg",
+    "static/media/muziekwebbefore.png": "/static/media/muziekwebbefore.724da4de8a43f0aee7a2.png",
     "static/media/healthra-sketch2.png": "/static/media/healthra-sketch2.8a5be1df927fdd29a18c.png",
     "static/media/healthra-sketch1.png": "/static/media/healthra-sketch1.11211379eae386ae85c8.png",
+    "static/media/explorepage.png": "/static/media/explorepage.573f3c82cc257679abcf.png",
     "static/media/healthra-persona-lisa.png": "/static/media/healthra-persona-lisa.bbeeffd9fc25f6488f54.png",
     "static/media/muziekweb.png": "/static/media/muziekweb.5400bda9e982dc9ef467.png",
+    "static/media/interfaceredesign.png": "/static/media/interfaceredesign.0890b34f1e24e05d787d.png",
     "static/media/cleaner-persona.png": "/static/media/cleaner-persona.5504aecb451060610253.png",
     "static/media/cleaner-sketch.png": "/static/media/cleaner-sketch.a193675b358920897c09.png",
     "static/media/airlineinterface2.png": "/static/media/airlineinterface2.f1a9a09fd6f4fc2444fb.png",
@@ -17,23 +21,27 @@
     "static/media/airlineinterface1.png": "/static/media/airlineinterface1.cbfee208444d14b1c277.png",
     "static/media/healthra-iteration1-summary.png": "/static/media/healthra-iteration1-summary.97af3bd2d870ea8ebb83.png",
     "static/media/cleaner-available-tasks.png": "/static/media/cleaner-available-tasks.09f9a826fa54f4435ef5.png",
+    "static/media/values.png": "/static/media/values.31b0ef2f26cdd095ac28.png",
     "static/media/healthra-user-journey.png": "/static/media/healthra-user-journey.436e9aa45583d28cc83a.png",
     "static/media/healthra.png": "/static/media/healthra.2bd394ac07558fd6bc85.png",
+    "static/media/vsdflow.png": "/static/media/vsdflow.fb2b17956889c8393b1e.png",
     "static/media/cleaner-dashboard.png": "/static/media/cleaner-dashboard.95944f410b11c5ca0344.png",
     "static/media/healthra-iteration1-medications.png": "/static/media/healthra-iteration1-medications.567a63b688eeb17046dc.png",
     "static/media/healthra-ia.png": "/static/media/healthra-ia.b91fb5e4d2364d1937ee.png",
     "static/media/cleanapp.png": "/static/media/cleanapp.fe6e02ad863dc44e6256.png",
     "static/media/airlinesite.png": "/static/media/airlinesite.8e7191470fb090a1e633.png",
-    "static/media/resume2026.pdf": "/static/media/resume2026.4ce3584e40374b20d150.pdf",
+    "static/media/valueshierarchy.png": "/static/media/valueshierarchy.95206f9fc3d50e884a0f.png",
+    "static/media/interfacestructure.png": "/static/media/interfacestructure.c4647a35f76c80d89b76.png",
+    "static/media/resume.pdf": "/static/media/resume.048a9bd92fa0967756f4.pdf",
     "static/media/clipart.png": "/static/media/clipart.d6dd41750762ab9016b0.png",
     "static/media/downArrow.png": "/static/media/downArrow.b0458b7aa0e70f35d5a5.png",
     "static/media/logo.png": "/static/media/logo.0268841659d16b2e9b7a.png",
     "index.html": "/index.html",
-    "main.888db172.css.map": "/static/css/main.888db172.css.map",
-    "main.6bd8ea1b.js.map": "/static/js/main.6bd8ea1b.js.map"
+    "main.2670b498.css.map": "/static/css/main.2670b498.css.map",
+    "main.3593e492.js.map": "/static/js/main.3593e492.js.map"
   },
   "entrypoints": [
-    "static/css/main.888db172.css",
-    "static/js/main.6bd8ea1b.js"
+    "static/css/main.2670b498.css",
+    "static/js/main.3593e492.js"
   ]
 }
